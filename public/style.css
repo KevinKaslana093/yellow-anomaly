@@ -12,3 +12,5 @@
 @media(max-width:850px) and (orientation:portrait){.hero-figure{height:auto;width:76%}.figure-left{left:-17%;bottom:0}.figure-center{left:12%;bottom:-3%;width:80%}.figure-right{left:48%;bottom:2%}}
 @media(orientation:landscape) and (max-height:500px){.hero-figure{height:auto;width:60%}}
 @media(max-width:850px) and (max-height:740px) and (orientation:portrait){.hero-figure{width:60%}.figure-left{left:-8%}.figure-center{left:17%;width:64%}.figure-right{left:48%}}
+body.has3d:not(.playing):before{content:"";position:fixed;inset:0;background:linear-gradient(90deg,#0a130fea 5%,#0a130fd0 35%,#0a130f70 100%);pointer-events:none;z-index:1}
+body.has3d #lobby{z-index:2}body.has3d.playing .vignette{background:linear-gradient(#07141385,transparent 16%,transparent 80%,#07141365)}
