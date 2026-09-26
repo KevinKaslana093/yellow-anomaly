@@ -1,0 +1,8 @@
+node_modules/
+.playwright-cli/
+output/
+*.tar.gz
+dist/
+.openai/
+.env
+.env.*
